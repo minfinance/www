@@ -1,6 +1,6 @@
 title: Minimalist Finance
 author: Varokas Panusuwan
-email: varokas@panusuwan.com
+#email: varokas@panusuwan.com
 #description: > # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
@@ -16,8 +16,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about2.html
+header_pages:
+ - about2.html
 
 # Build settings
 markdown: kramdown
