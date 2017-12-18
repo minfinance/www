@@ -1,29 +1,22 @@
+---
 title: Minimalist Finance
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 author: Varokas Panusuwan
-#email: varokas@panusuwan.com
-#description: > # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
-
-#twitter_username: varokas
 github_username: minfinance
-
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
 header_pages:
- - about2.html
-
-# Build settings
+- about2.html
 markdown: kramdown
-#theme: minima
 plugins:
-  - jekyll-seo-tag
+- jekyll-seo-tag
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
